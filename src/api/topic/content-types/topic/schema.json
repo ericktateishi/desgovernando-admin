@@ -22,14 +22,6 @@
     "description": {
       "type": "richtext"
     },
-    "qr_code": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "slug": {
       "type": "string"
     }
