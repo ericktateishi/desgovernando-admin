@@ -16,14 +16,22 @@
       "type": "string",
       "required": true
     },
-    "tiktok_url": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
     "slug": {
       "type": "string"
+    },
+    "tiktok_embed": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "information",
+        "action",
+        "ideologic"
+      ]
     }
   }
 }
