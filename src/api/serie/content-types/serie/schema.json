@@ -4,7 +4,8 @@
   "info": {
     "singularName": "serie",
     "pluralName": "series",
-    "displayName": "serie"
+    "displayName": "Série",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

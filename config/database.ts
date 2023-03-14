@@ -8,6 +8,8 @@ export default ({ env }) => ({
       user: env('DATABASE_USERNAME', 'admin'),
       password: env('DATABASE_PASSWORD', '12345'),
       ssl: env.bool('DATABASE_SSL', false),
+      charset   : 'utf8mb4',
+      collation : 'utf8mb4_unicode_ci'
     },
   },
 });
