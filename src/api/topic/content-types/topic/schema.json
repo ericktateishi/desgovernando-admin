@@ -22,9 +22,6 @@
     "slug": {
       "type": "string"
     },
-    "tiktok_embed": {
-      "type": "text"
-    },
     "category": {
       "type": "enumeration",
       "enum": [
@@ -32,6 +29,9 @@
         "action",
         "ideologic"
       ]
+    },
+    "tiktok_id": {
+      "type": "string"
     }
   }
 }
