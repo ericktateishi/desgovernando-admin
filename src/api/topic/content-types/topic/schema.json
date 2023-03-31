@@ -32,6 +32,17 @@
     },
     "tiktok_id": {
       "type": "string"
+    },
+    "preview": {
+      "type": "text"
+    },
+    "series": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::serie.serie"
+    },
+    "time_required": {
+      "type": "integer"
     }
   }
 }
