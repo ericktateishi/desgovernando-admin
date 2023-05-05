@@ -7,6 +7,10 @@ module.exports = () => ({
           field: 'slug',
           references: 'title',
         },
+        serie: {
+          field: 'slug',
+          references: 'name',
+        },
       },
     },
   },

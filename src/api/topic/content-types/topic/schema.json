@@ -27,8 +27,9 @@
       "enum": [
         "information",
         "action",
-        "ideologic"
-      ]
+        "news"
+      ],
+      "required": true
     },
     "tiktok_id": {
       "type": "string"
