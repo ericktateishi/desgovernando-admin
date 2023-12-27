@@ -27,12 +27,10 @@
       "enum": [
         "information",
         "action",
-        "news"
+        "news",
+        "class"
       ],
       "required": true
-    },
-    "tiktok_id": {
-      "type": "string"
     },
     "preview": {
       "type": "text"
@@ -44,6 +42,12 @@
     },
     "time_required": {
       "type": "integer"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "embed.video",
+      "required": false
     }
   }
 }

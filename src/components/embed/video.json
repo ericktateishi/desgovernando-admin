@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_embed_videos",
+  "info": {
+    "displayName": "video",
+    "icon": "play-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "embed_code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "tiktok",
+        "youtube",
+        "reels",
+        "kolektiva"
+      ]
+    },
+    "portrait": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
